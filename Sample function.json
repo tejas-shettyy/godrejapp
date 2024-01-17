@@ -1,0 +1,17 @@
+{
+"scriptFile": "__init__.py",
+"bindings": [
+{
+"name": "data",
+"type": "blobTrigger",
+"direction": "in",
+"path": "upload-data-container/{name}",
+"connection": "AzureWebJobsStorage"
+},
+{
+"name": "$return",
+"type": "http",
+"direction": "out"
+}
+]
+}
